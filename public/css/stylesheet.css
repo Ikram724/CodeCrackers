@@ -7,6 +7,9 @@
         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
 }
+.qazi {
+    color: #01038d;
+}
 
 html,
 body {
@@ -58,7 +61,7 @@ body {
 .massege {
     position: absolute;
     z-index: 999999;
-    top: 15%;
+    top: 42vw;
     left: 85%;
 }
 
@@ -441,7 +444,7 @@ body {
 }
 .footer {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -454,6 +457,8 @@ body {
     height: 70vh;
     background-color: #2f0ea7;
     z-index: 999;
+    bottom: 0;
+    position: absolute;
 }
 .cntct {
     width: 100%;
@@ -462,6 +467,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 15vw;
+    margin-top: 5vw;
     z-index: 999;
 }
 
